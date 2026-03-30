@@ -20,7 +20,7 @@ function Footer() {
           </i>
           <i>
             <Image
-              src="/insta.svg"
+              src="/Insta.svg"
               alt="Instagram logo "
               width={30}
               height={30}
