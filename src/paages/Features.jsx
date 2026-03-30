@@ -2,7 +2,7 @@ import { features } from "@/constants/ListItems";
 
 function Features() {
   return (
-    <section className="flex flex-col justify-evenly items-center gap-15 bg-primary w-full md:h-dvh text-white">
+    <section className="flex flex-col justify-evenly items-center gap-15 bg-primary max-md:py-20 w-full md:h-dvh text-white">
       <div className="flex flex-col justify-center items-center gap-15">
         <p className="inline-block bg-black px-4 py-2 border-2 border-white/15 rounded-full text-button text-2xl">
           Everything you need
