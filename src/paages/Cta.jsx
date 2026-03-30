@@ -4,14 +4,14 @@ import Button from "@/ui/Button";
 
 function Cta() {
   return (
-    <section className="flex justify-center items-center bg-primary w-full md:h-screen text-white">
-      <div className="bg-radial-[circle_at_50%_-20%] from-button/70 to-65% to-primary p-30 border-2 border-white/15 rounded-2xl w-[90%]">
-        <div className="flex flex-col items-center gap-5 lg:gap-10 text-center">
+    <section className="flex justify-center items-center bg-primary w-full h-screen text-white">
+      <div className="flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center bg-shadow border-2 border-white/15 rounded-2xl w-[90%] h-[80%] overflow-hidden">
+        <div className="flex flex-col items-center gap-2 lg:gap-4 xl:gap-10 text-center">
           <Image
             src={iconBig}
             alt="Icon for cta section"
-            width={150}
-            height={150}
+            width={140}
+            height={140}
           />
           <h1 className="font-medium text-4xl md:text-6xl lg:text-7xl xl:text-9xl">
             The magic of AI at <br className="max:md:hidden" />
